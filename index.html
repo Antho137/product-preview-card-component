@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-sm-center" id="first">	
+        <main class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3" id="main">
+          <div class="col-sm-6" id="mainleft">
+            <div id="mobile">
+              <img src="./images/image-product-mobile.jpg" id="pmobile" alt="p-mobile">
+            </div>
+            <div id="desktop">
+              <img src="./images/image-product-desktop.jpg" id="pdesktop" alt="p-desktop">
+            </div>
+          </div>
+          <div class="col-sm-6" id="mainright">
+            <p id="product">Perfume</p>
+            <h1>Gabrielle Essence Eau De Parfum</h1>
+            <p id="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <p id="price">$149.99<span id="reduction">$169.99</span></p>
+            <button id="btn"><img src="./images/icon-cart.svg" alt="icon-cart">Add to Cart</button>
+          </div>
+        </main>
+      </div>
+      <div class="row justify-content-sm-center" id="second">
+        <footer class="col-sm-12" id="footer">
+          <div class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="">Antonio Sala</a>.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
